@@ -1,0 +1,338 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&family=Open+Sans&family=Poppins:wght@400;700;800&family=Work+Sans:wght@400;700&display=swap');
+
+/* common styles start */
+:root {
+    --color-primary: #FF900E;
+    --background-color-primary: #FFF4E7;
+}
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Work Sans', sans-serif;
+    color: #727272;
+    box-sizing: border-box;
+}
+h1{
+    font-weight: 700;
+    font-size: 3em;
+    color: #131313;
+}
+p{
+    font-weight: 400;
+    font-size: 1em;
+    color: #727272;
+    line-height: 1.6em;
+}
+.button-primary{
+    background-color:var(--color-primary);
+    border-radius: 8px;
+    padding: 20px;
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    border: 0;
+    width: 300px;
+}
+.container{
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+/* common styles end */
+
+/* branding section styles start */
+.branding{
+    background-color: var(--background-color-primary);
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style: none;
+    gap: 50px;
+    color: #424242;
+    font-weight: 500;
+    font-size: 18px;
+}
+.banner{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.banner{
+    text-align: center;
+}
+.banner h1{
+    font-size: 4em;
+    padding: 0 20%;
+    margin-bottom: 30px;
+}
+.banner p{
+    padding: 0 25%;
+}
+.banner img{
+    width: 100%;
+    margin-top: 30px;
+}
+/* branding section styles end */
+
+/* feature-glimpse section styles start */
+.feature-glimpse{
+    display: flex;
+    align-items: center;
+    gap: 100px;
+    padding: 100px 0;
+}
+.section-image{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+}
+.section-info p{
+    margin: 30px 0;
+}
+.section-info span1{
+    color: #727272;
+    font-weight: 500;
+}
+.section-info span2{
+    color: var(--color-primary);
+}
+/* feature-glimpse section styles end */
+
+/* feature-details section styles start */
+.feature-details-content{
+    display: flex;
+    align-items: center;
+    gap: 200px;
+    padding: 100px 0;
+}
+.feature-details h1{
+    border-left: 5px solid var(--color-primary);
+    padding-left: 20px;
+}
+.feature-item{
+    background-color: white;
+    padding: 15px 30px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+}
+.feature-item h3{
+    color: #131313;
+}
+.large-button{
+    background-color:var(--color-primary);
+    border-radius: 8px;
+    padding: 5px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 25px;
+    border: 0;
+    width: 290px;
+    text-align: center;
+    position: relative;
+    bottom: 220px;
+    margin: 0 auto;
+}
+.large-button h1, h3{
+    color: white;
+}
+/* feature-details section styles end */
+
+/* facts section styles start */
+.facts{
+    max-width: 1500px;
+    margin: -250px auto 50px auto;
+    padding: 50px 100px;
+}
+.facts-tittle{
+max-width: 40%;
+}
+.fact-card{
+    display: flex;
+    justify-content: space-evenly;
+}
+.card-item h1{
+    color: #424242;
+    font-weight: 600;
+}
+.card-item{
+    text-align: center;
+    line-height: 10px;
+    border: 2px solid var(--color-primary);
+    border-radius: 8px;
+    padding: 30px 50px;
+    margin-top: 100px;
+    transition: transform 0.5s ease-out;
+}
+.card-item:hover{
+    transform: scale(1.15);
+}
+/* facts section styles end */
+
+/* sponsors section styles start */
+.sponsors-tittle{
+    margin: 0 auto;
+    text-align: center;
+    max-width: 40%;
+}
+.sponsors-brand{
+    display: flex;
+    justify-content: space-around;
+    margin: 50px auto;
+}
+.sponsors-brand img{
+    filter: grayscale(1);
+    transition: filter 0.2s ease-in;
+}
+.sponsors-brand img:hover{
+    filter: none;
+}
+/* sponsors section styles end */
+
+/* start of extra added contact section style */
+.contact{
+    margin-bottom: 100px;
+}
+.contact-tittle{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.contact-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contact-info, .contact-icons, .contacts{
+    width: 33%;
+    text-align: center;
+}
+.contact-icons{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    font-size: 50px;
+}
+.contact i{
+    filter: grayscale(1);
+    transition: transform 0.2s ease-in-out;
+}
+.contact i:hover{
+    filter: none;
+    transform: scale(1.25);
+}
+/* end of extra added contact section style */
+
+/* footer section styles start */
+footer{
+    background-color: var(--background-color-primary);
+    margin-bottom: 200px;
+    max-width: 1500px;
+    margin: 0 auto;
+    padding: 10px 0;
+    text-align: center;
+    margin-bottom: 50px;
+}
+footer h3{
+    color: #424242;
+}
+/* footer section styles start */
+
+
+/* media query for mobile device styles start */
+@media only screen and (max-width:576px){
+
+    /* common styles start */
+    body{
+        font-size: small;
+    }
+    .container, .facts{
+        padding: 20px 10px;
+    }
+    /* common styles end */
+
+    /* branding styles start */
+    header{
+        flex-direction: column;
+    }
+    ul{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .banner h1{
+        font-size: 2em;
+        padding: 0 5%;
+    }
+    .banner p{
+        padding: 0 5%;
+    }
+    /* branding styles end */
+
+    /* feature-glimpse styles start */
+    .feature-glimpse{
+        flex-direction: column-reverse;
+    }
+    .section-image{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 30px;
+    }
+    /* feature-glimpse styles end */
+
+    /* feature-details styles start */
+    .feature-details, .feature-details-content {
+        flex-direction: column;
+    }
+    .feature-details-content img{
+        width: 100%;
+    }
+    .large-button{
+        bottom: 720px;
+    }
+    /* feature-details styles end */
+
+    /* facts section styles start */
+    .facts-tittle{
+        max-width: 100%;
+    }
+    .fact-card{
+        flex-direction: column;
+    }
+    .card-item{
+        margin: 10px 50px;
+    }
+    /* facts section styles end */
+
+    /* sponsors section styles start */
+    .sponsors-brand{
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+    }
+    .sponsors-brand img{
+        max-width: 70%;
+    }
+    .sponsors-tittle{
+        max-width: 100%;
+        padding: 0 5%;
+    }
+    /* sponsors section styles end */
+
+    /* contact section styles start */
+    .contact-details{
+        flex-direction: column;
+        gap: 50px;
+    }
+    .contact-info, .contact-icons, .contacts{
+        width: 100%;
+    }
+    /* contact section styles end */
+}
