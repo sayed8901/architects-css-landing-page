@@ -294,7 +294,7 @@ footer h3{
 
     /* feature-glimpse styles start */
     .feature-glimpse{
-        flex-direction: column;
+        flex-direction: column-reverse;
         margin-top: 50px;
         gap: 30px;
     }
