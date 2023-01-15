@@ -246,6 +246,7 @@ max-width: 40%;
 /* footer section styles start */
 footer{
     background-color: var(--background-color-primary);
+    max-width: 1500px;
     margin-bottom: 200px;
     margin: 0 auto;
     padding: 10px 0;
@@ -255,7 +256,7 @@ footer{
 footer h3{
     color: #424242;
 }
-/* footer section styles start */
+/* footer section styles end */
 
 
 
@@ -365,7 +366,7 @@ footer h3{
 
 
 
-/* media query for tablet or landscape mobile device styles start */
+/* media query for tablet or mobile landscape device styles start */
 @media only screen and (min-width:577px) and (max-width:768px){
 
     /* common styles start */
@@ -469,5 +470,5 @@ footer h3{
     }
     /* contact section styles end */
 }
-/* media query for tablet or landscape mobile device styles end */
+/* media query for tablet or mobile landscape device styles end */
 
