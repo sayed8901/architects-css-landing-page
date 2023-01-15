@@ -366,7 +366,7 @@ footer h3{
 
 
 /* media query for tablet or landscape mobile device styles start */
-@media only screen and (min-width:577px) and (max-width:992px){
+@media only screen and (min-width:577px) and (max-width:768px){
 
     /* common styles start */
     body{
