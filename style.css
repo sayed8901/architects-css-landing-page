@@ -51,6 +51,9 @@ header{
     justify-content: space-between;
     align-items: center;
 }
+.branding .container{
+    padding: 10px 50px;
+}
 ul{
     display: flex;
     list-style: none;
@@ -374,9 +377,6 @@ footer h3{
     /* common styles end */
 
     /* branding styles start */
-    .branding .container{
-        padding: 10px 50px;
-    }
     ul{
         flex-direction: column;
         gap: 5px;
