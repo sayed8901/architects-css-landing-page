@@ -211,6 +211,10 @@ max-width: 40%;
     justify-content: space-between;
     align-items: center;
 }
+.contact-info{
+    border-right: 3px solid var(--color-primary);
+    padding-right: 50px;
+}
 .contact-info, .contact-icons, .contacts{
     width: 33%;
     text-align: center;
@@ -220,6 +224,7 @@ max-width: 40%;
     justify-content: center;
     gap: 50px;
     font-size: 50px;
+    padding-right: 30px;
 }
 .contact i{
     filter: grayscale(1);
@@ -229,13 +234,15 @@ max-width: 40%;
     filter: none;
     transform: scale(1.25);
 }
+.contacts{
+    border-left: 3px solid var(--color-primary);
+}
 /* end of extra added contact section style */
 
 /* footer section styles start */
 footer{
     background-color: var(--background-color-primary);
     margin-bottom: 200px;
-    max-width: 1500px;
     margin: 0 auto;
     padding: 10px 0;
     text-align: center;
@@ -255,7 +262,7 @@ footer h3{
         font-size: small;
     }
     .container, .facts{
-        padding: 20px 10px;
+        padding: 20px 30px;
     }
     /* common styles end */
 
@@ -291,15 +298,21 @@ footer h3{
     .feature-details, .feature-details-content {
         flex-direction: column;
     }
+    .feature-details-content{
+        gap: 30px;
+    }
     .feature-details-content img{
         width: 100%;
     }
     .large-button{
-        bottom: 720px;
+        bottom: 150px;
     }
     /* feature-details styles end */
 
     /* facts section styles start */
+    .facts{
+        margin-top: -100px;
+    }
     .facts-tittle{
         max-width: 100%;
     }
@@ -333,6 +346,8 @@ footer h3{
     }
     .contact-info, .contact-icons, .contacts{
         width: 100%;
+        border: 0;
+        padding: 0;
     }
     /* contact section styles end */
 }
