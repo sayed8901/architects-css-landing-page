@@ -257,115 +257,6 @@ footer h3{
 
 
 
-/* media query for tablet or landscape mobile device styles start */
-@media only screen and (min-width:577px) and (max-width:768px){
-
-    /* common styles start */
-    body{
-        font-size: small;
-    }
-    .container, .facts{
-        padding: 30px 50px;
-    }
-    /* common styles end */
-
-    /* branding styles start */
-    ul{
-        flex-direction: column;
-        gap: 5px;
-    }
-    .banner h1{
-        font-size: 2em;
-        padding: 0 5%;
-    }
-    .banner p{
-        padding: 0 5%;
-    }
-    /* branding styles end */
-
-    /* feature-glimpse styles start */
-    .feature-glimpse{
-        flex-direction: column-reverse;
-        gap: 50px;
-    }
-    .section-image{
-        margin: 0 20px;
-        gap: 15px;
-    }
-    .section-image img{
-        width: 95%;
-        height: auto;
-    }
-    /* feature-glimpse styles end */
-
-    /* feature-details styles start */
-    .feature-details, .feature-details-content {
-        flex-direction: column;
-    }
-    .feature-details-content{
-        gap: 30px;
-        padding: 30px 0;
-    }
-    .feature-details-content img{
-        width: 95%;
-    }
-    .large-button{
-        bottom: 120px;
-    }
-    /* feature-details styles end */
-
-    /* facts section styles start */
-    .facts{
-        margin-top: -100px;
-        margin-bottom: 0px;
-    }
-    .facts-tittle{
-        max-width: 100%;
-        margin-bottom: 30px;
-    }
-    .fact-card{
-        display: grid;
-        grid-template-columns: repeat(2, 1fr);
-    }
-    .card-item{
-        margin: 10px 50px;
-    }
-    /* facts section styles end */
-
-    /* sponsors section styles start */
-    .sponsors-brand img{
-        width: 80px;
-        height: auto;
-    }
-    .sponsors-tittle{
-        max-width: 100%;
-        padding: 0 5%;
-    }
-    /* sponsors section styles end */
-
-    /* contact section styles start */
-    .contact{
-        margin-bottom: 50px;
-    }
-    .contact-tittle{
-        margin-bottom: 20px;
-    }
-    .contact-details{
-        flex-direction: column;
-        gap: 20px;
-    }
-    .contact-info, .contact-icons, .contacts{
-        width: 100%;
-        border: 0;
-        padding: 0;
-    }
-    /* contact section styles end */
-}
-/* media query for tablet or landscape mobile device styles end */
-
-
-
-
 
 /* media query for mobile device styles start */
 @media only screen and (max-width:576px){
@@ -466,4 +357,116 @@ footer h3{
 }
 /* media query for mobile device styles end */
 
+
+
+
+
+/* media query for tablet or landscape mobile device styles start */
+@media only screen and (min-width:577px) and (max-width:768px){
+
+    /* common styles start */
+    body{
+        font-size: small;
+    }
+    .container, .facts{
+        padding: 20px 50px;
+    }
+    /* common styles end */
+
+    /* branding styles start */
+    .branding .container{
+        padding: 10px 50px;
+    }
+    ul{
+        flex-direction: column;
+        gap: 5px;
+    }
+    .banner h1{
+        font-size: 2em;
+        padding: 0 5%;
+    }
+    .banner p{
+        padding: 0 5%;
+    }
+    /* branding styles end */
+
+    /* feature-glimpse styles start */
+    .feature-glimpse{
+        flex-direction: column-reverse;
+        gap: 50px;
+    }
+    .section-image{
+        margin: 0 20px;
+        gap: 15px;
+    }
+    .section-image img{
+        width: 95%;
+        height: auto;
+    }
+    /* feature-glimpse styles end */
+
+    /* feature-details styles start */
+    .feature-details, .feature-details-content {
+        flex-direction: column;
+    }
+    .feature-details-content{
+        gap: 30px;
+        padding: 30px 0;
+    }
+    .feature-details-content img{
+        width: 95%;
+    }
+    .large-button{
+        bottom: 120px;
+    }
+    /* feature-details styles end */
+
+    /* facts section styles start */
+    .facts{
+        margin-top: -100px;
+        margin-bottom: 0px;
+    }
+    .facts-tittle{
+        max-width: 100%;
+        margin-bottom: 30px;
+    }
+    .fact-card{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .card-item{
+        margin: 10px 50px;
+    }
+    /* facts section styles end */
+
+    /* sponsors section styles start */
+    .sponsors-brand img{
+        width: 80px;
+        height: auto;
+    }
+    .sponsors-tittle{
+        max-width: 100%;
+        padding: 0 5%;
+    }
+    /* sponsors section styles end */
+
+    /* contact section styles start */
+    .contact{
+        margin-bottom: 50px;
+    }
+    .contact-tittle{
+        margin-bottom: 20px;
+    }
+    .contact-details{
+        flex-direction: column;
+        gap: 20px;
+    }
+    .contact-info, .contact-icons, .contacts{
+        width: 100%;
+        border: 0;
+        padding: 0;
+    }
+    /* contact section styles end */
+}
+/* media query for tablet or landscape mobile device styles end */
 
